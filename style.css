@@ -74,7 +74,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
           }
       /* each slide background color */ 
       .slide1 {
-          background:url("./img/EDS06812.jpg") no-repeat center center fixed;
+          background:url("./img/slide2.jpg") no-repeat center center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -82,7 +82,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
           left: 0;
       }
       .slide2 {
-          background:url("./img/EDS06918.jpg") no-repeat center center fixed;
+          background:url("./img/slide3.jpg") no-repeat center center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -101,9 +101,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
           background: #607d8d;
           left: 300%;
       }
-      .slider > div {
-        text-align: center;
-      }
       /* Slider inner content */
       .slider h2 {
           color: #FFF;
@@ -117,8 +114,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
       }
 .slider p {
             line-height:inherit;
-            width:80vw;
+            width:30vw;
             text-align: inherit;
+            color:#fff;
 }
       .slider .button {
           color: #FFF;
@@ -462,6 +460,16 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	font-size: 52px;
 }
 
+/* = Collapsible ----*/
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+
 /* = NavBar
 -------------------------------------------------------------- */
 
@@ -627,11 +635,21 @@ nav .caret{
 	background:rgba(0,0,0,.3);
 }
 
+.btn-hero{
+    font-size: 15px;
+	color: rgba(255,255,255,.8);
+	background: rgba(0,0,0,.6);
+	position:relative;
+	left: 40vw;
+    margin:2 2 2 0;
+    padding:2 2 2 2;
+	border:0;
+}
+
 /* Prevent ugly blue glow on chrome and safari */
 button{
 	outline: none!important;
 }
-
 .a-btn{
 	padding: 6px 10px 6px 0;
 	line-height: 1.42857143;
@@ -704,6 +722,11 @@ iframe{
 .bgc-white{
 	background-color:#ffffff;
 }
+
+.bgc-green{
+    background-color: darkgreen;
+    color:#ffffff!important;
+}
 /* Text colour styles */
 
 .tc-outer-space{
@@ -717,6 +740,9 @@ iframe{
 .btn-sunglow:hover{
 	background:#cca226;
 	color:rgba(0,0,0,.5)!important;
+}
+.text-white{
+    color:#ffffff;
 }
 
 /* Bloc image backgrounds */
@@ -739,7 +765,9 @@ iframe{
 .bg-mountainsdusk{
 	background-image:url('img/mountainsdusk.jpg');
 }
-
+.bg-custom1{
+    background-image:url('img/slideA.jpg')
+}
 
 
 /* = Mobile adjustments 
